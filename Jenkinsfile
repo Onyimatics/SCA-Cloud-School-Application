@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Source') {
       steps {
-        git(url: 'git@github.com:Onyimatics/SCA-Cloud-School-Application.git', branch: 'master', credentialsId: '17f08133-a1f4-49b7-9871-1d33804f1a8c')
+        git(url: 'git@github.com:Onyimatics/SCA-Cloud-School-Application.git', branch: 'master', credentialsId: '6107ee0e-a3ef-4347-a966-8fc16ce205d9')
       }
     }
 
